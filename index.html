@@ -24,6 +24,7 @@ Tipos de dato (Utilizados en la visualización)<br>
 Departamento: Categórico. Corresponde a los nombres de 30 departamentos de Colombia de los que se tienen datos.<br>
 Área desminada: Cuantitativo secuencial (Mínimo = 0, Máximo = 2103523). Corresponde al área desminada agregada por departamento.<br>
 Año: Cuantitativo Secuencial Temporal. Corresponde al año en el que se realizaron tareas de desminado.<br>
+Organización: Entidad encargada de realizar las labores de desminado<br>
 
 </p>
 <p>
@@ -80,11 +81,18 @@ El contenido corresponde al área desminada y la organización encargada usando 
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
-
+<br>
+<h2>Insights</h2>
+<p>A pesar de usar el mismo dataset en todas las tareas, con esta viz se evidencian cosas que no se habían visto antes:<br>
+1. El trabajo realizado fue muy poco en la década pasada. Puede deberse a que la tarea es compleja y no había personal o material suficiente para realizarla.<br>
+2. Hay departamentos que eran relevantes en visualizaciones anteriores; por ejemplo, Caquetá y Meta. Pero al comparar dentro de la misma escala, se ven pequeños comparados con Antioquia y Caldas.<br>
+3. La BRDEH (Brigada de Desminado Humanitario) trabaja constantemente en el tiempo, en varios territorios del país. Pero con un interés especial en la región Andina (Santander, Antioquia y Caldas). Pendiente un filtro por región para hacer más visible este hecho.<br>
+4. La costa atlántica (Salvo Bolivar) han sido afortunadas pues al parecer no han tenido problemas de minas antipersonales.
+</p>
 <br>
 <h2>Licencia</h2>
 <p>
-Copyright 2019 Jorge Andrés González
+Copyright 2019 Jorge Andrés González<br>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br>
 
